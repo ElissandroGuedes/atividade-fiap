@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html{
+
+    font-size: 62.5%;
+}
+
+body{
+    font-size:  1.6rem;
+    
+}
+
+ul{
+    list-style: none;
+}
+
+.header-cabecalho{
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color:#198754;
+    font-size: 2rem;
+    margin-bottom: 0;
+
+}
+
+main{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color:#20c997;
+    margin: 0;
+    height: 80vh;
+
+}
+
+.main-a {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 100px;
+    gap: 5rem;
+    
+}
+
+.main-b ul{
+
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+
+.ul-li{
+
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-content: center;
+    width: 90px;
+}
+
+
+.footer ul{
+
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    width: 100%;
+    padding: 2rem;
+    background-color:#198754;
+    font-size: 2rem;
+}
+
+.ul-li-footer{
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.icon-card{
+
+    font-size:200px;
+    cursor: pointer;
+    width: 100%;
+    display: block;
+}
+
+.icon-main-b{
+
+    font-size:40px;
+    cursor: pointer;
+
+    
+}
+
+.icon-header{
+
+    font-size: 40px;
+    cursor: pointer;
+    
+}
+
+.icon-footer{
+
+    font-size: 40px;
+    cursor: pointer;
+    
+}
+
+.icon-card:hover{
+
+    color: forestgreen;
+    transform: scale(1.2);
+
+}
+
+.icon-footer:hover{
+
+    color: forestgreen;
+    transform: scale(1.2);
+
+}
+
+.icon-main-b:hover{
+
+    color: forestgreen;
+    transform: scale(1.2);
+
+}
+
+.icon-seta:hover{
+
+    color: forestgreen;
+    transform: scale(1.2);
+}
+
+.carousel-inner{
+
+    padding-inline: 10rem;
+    
+}
+

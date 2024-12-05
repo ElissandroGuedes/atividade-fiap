@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartões</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    
+<header>
+
+    <nav>
+        <ul class="header-cabecalho">
+            <li><nav class="navbar">
+              <div class="container-fluid">
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                  <i class="fa-solid fa-bars icon-header"></i>
+                </button>
+                <div class="offcanvas offcanvas-start" style="background-color:#198754;" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                  <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Cartões</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                  <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Meus cartões</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Limites</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Consultar fatura
+                        </a>
+                        <ul class="dropdown-menu" style="background-color:#198754">
+                          <li><a class="dropdown-item" href="#">Pagar fatura</a></li>
+                          <li><a class="dropdown-item" href="#">Parcelar fatura</a></li>
+                          <li><a class="dropdown-item" href="#">Extrato da fatura</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                    <form class="d-flex mt-3" role="search">
+                      <input class="form-control me-2" style="background-color: #198754;"  type="search" placeholder="Digite aqui a sua procura" aria-label="Search">
+                      <button class="btn btn-outline-dark" type="submit">Procurar</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </nav> </li>
+            <li class="titulo-cartao"><strong>CARTÕES</strong></li>
+            <li><i class="fa-solid fa-right-from-bracket icon-header"></i></li>
+        </ul>
+    </nav>
+
+    
+
+
+</header>
+
+<main>
+
+    <div class="main-a">
+
+      <div id="carouselExampleControlsNoTouching" class="carousel carousel-dark slide" data-bs-touch="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <i class="fa-solid fa-credit-card icon-card"></i>
+          </div>
+          <div class="carousel-item">
+            <i class="fa-brands fa-cc-visa icon-card"></i>
+          </div>
+          <div class="carousel-item">
+            <i class="fa-brands fa-cc-mastercard icon-card"></i>
+          </div>
+          <div class="carousel-item">
+            <i class="fa-brands fa-cc-diners-club icon-card"></i>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden"></span>
+        </button>
+      </div>
+
+    </div>
+        
+        
+        
+    
+    
+    <div class="main-b"> 
+
+
+      <div id="carouselExampleIndicators" class="carousel carousel-dark slide">
+      
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <ul>
+              <li class="ul-li text-center"><i class="fa-solid fa-lock icon-main-b"></i><p class="text-center">Bloquear</p></li>
+              <li class="ul-li text-center"><i class="fa-solid fa-key icon-main-b"></i><p class="text-center">Liberar</p></li>
+              <li class="ul-li text-center"><i class="fa-solid fa-upload icon-main-b"></i><p class="text-center">Baixar</p></li>
+          </ul>
+          </div>
+          <div class="carousel-item">
+            <ul>
+              <li class="ul-li text-center"><i class="fa-solid fa-barcode icon-main-b"></i><p class="text-center">Pagar</p></li>
+              <li class="ul-li text-center"><i class="fa-solid fa-unlock icon-main-b"></i><p class="text-center">Desbloquear</p></li>
+              <li class="ul-li text-center p-3"><i class="fa-solid fa-share-nodes icon-main-b"></i></i><p class="text-center">Compartilhar</p></li>
+          </ul>
+          </div>
+          <div class="carousel-item">
+            <ul>
+              <li class="ul-li text-center"><i class="fa-solid fa-bell icon-main-b"></i><p class="text-center">Notificação</p></li>
+              <li class="ul-li text-center"><i class="fa-solid fa-file-pdf icon-main-b"></i><p class="text-center">Faturas</p></li>
+              <li class="ul-li text-center"><i class="fa-solid fa-cart-shopping icon-main-b"></i><p class="text-center">Compras</p></li>
+          </ul>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Próximo</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+      </div>
+
+
+
+    </div>
+
+
+
+</main>
+
+
+
+<div class="footer">
+    
+    <div>
+        
+        <ul>
+            <li>
+              <button type="button" class="btn btn-outline-dark border-0" style="background-color: #198754;"  data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                <i class="fa-solid fa-phone icon-footer"></i>
+              </button>
+              <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="staticBackdropLabel"><i class="fa-solid fa-headset"> Fale com a gente</i></h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <h2>Outros números de telefone</h2>
+                      <p>4004 0077 Capitais e regiões metropolitanas</p>
+                      <p>0800 456 5231 Demais cidades</p>
+                    </div>
+                  </div>
+                </div>
+              </div></li>
+            <li class="ul-li-footer text-center"><STRong>CENTRAL DE CARTÕES</STRong>0800 704 3030</li>
+            <li>
+              <button type="button" class="btn btn-outline-dark border-0" style="background-color: #198754;"  data-bs-toggle="modal" data-bs-target="#staticBackdrop1">
+                <i class="fa-brands fa-whatsapp icon-footer"></i>
+              </button>
+              <div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="staticBackdropLabel"><i class="fa-brands fa-square-whatsapp"></i> <strong>WHATSAPP</strong></h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <h2>+ 55 99 4004-0078</h2>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+              </div></li>
+        </ul>
+    
+    </div>
+    
+    
+    
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
+
